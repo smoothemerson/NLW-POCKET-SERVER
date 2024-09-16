@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 3333
 
 # Comando para iniciar a aplicação usando PM2
-CMD ["pm2-runtime", "src/http/server.ts", "--env", "production"]
+CMD ["pm2-runtime", "start", "ecosystem.config.js", "--env", "production"]
