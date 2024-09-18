@@ -43,6 +43,9 @@ $ npm install
 
 # Crie o arquivo '.env' e preencha as variáveis conforme o arquivo '.env.example'
 
+# Utiliza-se DOCKER como banco de dados
+$ docker compose up -d
+
 # Execute as migrations para criar as tabelas necessárias no banco
 $ npx drizzle-kit generate
 $ npx drizzle-kit migrate
